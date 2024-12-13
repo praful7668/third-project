@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style="margin: 200px 600px ; border: 2px solid transparent;" >
+    <button id="one" style="height: 50px; width: 80px; border-radius: 50%;">one</button>
+    <button id="two" style="height: 50px; width: 80px; border-radius: 50%;">two</button>
+    <button id="three" style="height: 50px; width: 80px; border-radius: 50%;">three</button>
+</div>
+    <script>
+       document.getElementById("one").addEventListener('click',function(){
+        document.querySelector("body").style.background="green"
+       })
+       document.getElementById("two").addEventListener('click',function(){
+        document.querySelector("body").style.background="red"
+       })
+       document.getElementById("three").addEventListener('click',function(){
+        document.querySelector("body").style.background="purple"
+       })
+
+
+    // document.querySelector("body").addEventListener('click', function(){
+    //     this.style.background="orange"
+    // })
+        
+    
+    </script>
+</body>
+</html>

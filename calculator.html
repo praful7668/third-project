@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #p{
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <section style="text-align: center; margin-top: 20px; ">
+    <form action="">
+        <div style="border: 5px solid; width: 200px;  height: 250px; 
+                        margin: 20px auto; background-color: aquamarine;">
+        <input type="text"  name="display" placeholder="0" id="cal"><br><br>  
+        <button  id="p" type="button" onclick="display.value = ''" style="background-color: orange; border-radius: 50%;">AC</button>
+        <button  id="p" type="button" onclick="display.value = display.value.slice(0,-1)">C</button>
+        <button  id="p" type="button"onclick="display.value += '%'">%</button>
+        <button  id="p" type="button"onclick="display.value += '/'">/</button><br><br>
+
+
+
+        <button  id="p" type="button"onclick="display.value += '7'">7</button>
+        <button  id="p" type="button"onclick="display.value += '8'">8</button>
+        <button  id="p" type="button"onclick="display.value += '9'">9</button>
+        <button  id="p" type="button"onclick="display.value += '*'">*</button><br><br>    
+
+
+
+        <button  id="p" type="button"onclick="display.value += '4'">4</button>
+        <button  id="p" type="button"onclick="display.value += '5'">5</button>
+        <button  id="p" type="button"onclick="display.value += '6'">6</button>
+        <button  id="p" type="button"onclick="display.value += '-'">-</button><br><br>
+
+
+
+        <button  id="p" type="button" onclick="display.value += '1'">1</button>
+        <button  id="p" type="button"onclick="display.value += '2'">2</button>
+        <button  id="p" type="button"onclick="display.value += '3'">3</button>
+        <button  id="p" type="button"onclick="display.value += '+'">+</button><br><br>
+
+
+        <button  id="p" type="button"onclick="display.value += '0'">0</button>
+        <button  id="p" type="button"onclick="display.value += '00'">00</button>
+        <button  id="p" type="button"onclick="display.value += '.'">.</button>
+        <button  id="p" type="button"onclick="display.value = eval(display.value)" style="background-color: brown;">=</button>
+    </div>
+    </form>
+</section>
+<script>
+  let inp=  document.getElementById("cal")
+    .addEventListener("keypress",function(){
+        this.style.
+    })
+
+</script>
+</body>
+</html>
